@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pop_bg"
+    android:orientation="horizontal">
+
+    <ListView
+        android:id="@+id/lv_parent_category"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"
+        android:background="@color/zu_choose_left_item_bg"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/zu_choose_left_item_diveder"
+        android:dividerHeight="1dp"
+        android:scrollbars="none"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="@color/zu_choose_left_item_diveder"/>
+
+    <ListView
+        android:id="@+id/lv_children_category"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="4"
+        android:background="@color/zu_choose_right_item_bg"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/zu_choose_left_item_diveder"
+        android:dividerHeight="1dp"
+        android:scrollbars="none" />
+
+</LinearLayout>

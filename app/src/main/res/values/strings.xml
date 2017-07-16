@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SpinnerSelectAddress</string>
+    <string name="zu_quyu">区域</string>
+    <string name="zu_money">租金</string>
+    <string name="zu_huxing">户型</string>
+    <string name="zu_laiyuan">来源</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="zu_choose_bg">#444444</color>
+    <color name="zu_choose_left_item_bg">#E5E5E5</color>
+    <color name="zu_choose_right_item_bg">#F3F3F3</color>
+    <color name="zu_choose_left_item_diveder">#D6D6D5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="list_text_select_color">#FF822E</color>
+</resources>
