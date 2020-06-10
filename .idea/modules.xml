@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpinnerSelectAddress.iml" filepath="$PROJECT_DIR$/SpinnerSelectAddress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/SpinnerSelectAddress-app.iml" filepath="$PROJECT_DIR$/app/SpinnerSelectAddress-app.iml" group="SpinnerSelectAddress/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/github-SpinnerSelectAddress.iml" filepath="$PROJECT_DIR$/github-SpinnerSelectAddress.iml" group="SpinnerSelectAddress" />
     </modules>
   </component>
 </project>

@@ -4,19 +4,20 @@ import com.ansen.spinnerselectaddress.R;
 import com.ansen.spinnerselectaddress.view.SelectPopupWindow;
 import com.ansen.spinnerselectaddress.view.SelectPopupWindow.SelectCategory;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 /**
  * 主Activity
  * @author ansen
  * @create time 2015-09-25
  */
-public class MainActivity extends Activity implements OnClickListener{
+public class MainActivity extends AppCompatActivity implements OnClickListener{
 	private SelectPopupWindow mPopupWindow = null;
 	
 	private TextView tvZuQuyu;
@@ -40,7 +41,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_chuzu_city_main);
 		
-		tvZuQuyu = (TextView) findViewById(R.id.tvZuQuyu);
+		tvZuQuyu = findViewById(R.id.tvZuQuyu);
 		tvZuQuyu.setOnClickListener(this);
 	}
 
@@ -65,7 +66,7 @@ public class MainActivity extends Activity implements OnClickListener{
 			String parentStr=parentStrings[parentSelectposition];
 			String childrenStr=childrenStrings[parentSelectposition][childrenSelectposition];
 			
-			Toast.makeText(MainActivity.this, "父类别:"+parentStr+"  子类别:"+childrenStr, 0).show();
+			Toast.makeText(MainActivity.this, "父类别:"+parentStr+"  子类别:"+childrenStr, Toast.LENGTH_SHORT).show();
 		}
 	};
 }

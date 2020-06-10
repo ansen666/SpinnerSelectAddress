@@ -112,7 +112,6 @@ public class SelectPopupWindow extends PopupWindow{
 		 * @param parentSelectposition  父类别选中下标
 		 * @param childrenSelectposition 子类别选中下标
 		 */
-		public void selectCategory(int parentSelectposition,int childrenSelectposition);
+		void selectCategory(int parentSelectposition,int childrenSelectposition);
 	}
-    
 }
